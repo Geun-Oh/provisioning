@@ -1,3 +1,3 @@
 variable "secret-value" {
-	default			= ""
+  default = ""
 }
