@@ -16,7 +16,7 @@ variable "sg_variables" {
           Name    = "hello-geunohs_apnortheast2-ec2-sg"
           app     = "hello"
           project = "hello"
-          env     = "dev"
+          env     = "prod"
           stack   = "geunohs_apnortheast2"
         },
       }
@@ -37,7 +37,7 @@ variable "sg_variables" {
           Name    = "hello-geunohs_apnortheast2-external-lb-sg"
           app     = "hello"
           project = "hello"
-          env     = "dev"
+          env     = "prod"
           stack   = "geunohs_apnortheast2"
         },
 
